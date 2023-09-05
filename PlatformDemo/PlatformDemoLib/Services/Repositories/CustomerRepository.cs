@@ -13,6 +13,8 @@ namespace PlatformDemoLib.Services.Repositories
         {
             _dataContext = dataContext;
         }
+
+        //Gets Customer with their total order amount
         public async Task<ICollection<CustomerDto>> GetCustomerOrders()
         {
             return await (from c in _dataContext.customers
