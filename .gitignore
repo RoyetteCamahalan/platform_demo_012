@@ -1,0 +1,16 @@
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Pp]ublishProfiles/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+packages/
+*.vs
+*.ldf
+README.md
+/node_modules
